@@ -46,10 +46,10 @@ For each image, we provide our VGG based object detection results (object catego
 >> run predicate_detection.m;
 ```
 
-## running Demo file in colab :
+## Run Demo file in colab :
 Follow the following steps to run the program :
 
-1.clone the repository.
+1.clone the repository. 
 2.move out the files according to the screenshot shows the places.
 3.install octave using. 
 ```
