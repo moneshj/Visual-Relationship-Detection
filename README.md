@@ -46,7 +46,31 @@ For each image, we provide our VGG based object detection results (object catego
 >> run predicate_detection.m;
 ```
 
- 
+## running Demo file in colab :
+Follow the following steps to run the program :
+
+1.clone the repositary
+2.move out the files according to the screenshot shows the places.
+3.install octave using 
+```
+!apt install octave
+```
+4.open up the demo.m file and copy the matlab program
+5.paste under this command,
+```
+%%writefile your_filename.m
+```
+6.Now Run this commmand,
+```
+!octave -W your_filename.m
+```
+note: it will run contiously for all the images
+7. For to save the results in python format,
+```
+a = !octave -W your_filename.m
+print(a)
+```
+## Thankyou sir,(https://github.com/Prof-Lu-Cewu)
 
 
 
