@@ -49,13 +49,13 @@ For each image, we provide our VGG based object detection results (object catego
 ## running Demo file in colab :
 Follow the following steps to run the program :
 
-1.clone the repositary
+1.clone the repository.
 2.move out the files according to the screenshot shows the places.
-3.install octave using 
+3.install octave using. 
 ```
 !apt install octave
 ```
-4.open up the demo.m file and copy the matlab program
+4.open up the demo.m file and copy the matlab program.
 5.paste under this command,
 ```
 %%writefile your_filename.m
@@ -64,13 +64,10 @@ Follow the following steps to run the program :
 ```
 !octave -W your_filename.m
 ```
-note: it will run contiously for all the images
+note: it will run contiously for all the images.
 7. For to save the results in python format,
 ```
 a = !octave -W your_filename.m
 print(a)
 ```
-## Thankyou sir,(https://github.com/Prof-Lu-Cewu)
-
-
-
+# Thankyou sir,(https://github.com/Prof-Lu-Cewu)
